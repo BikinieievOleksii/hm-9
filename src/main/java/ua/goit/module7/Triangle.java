@@ -1,8 +1,10 @@
 package ua.goit.module7;
 
 class Triangle implements Shape {
+    String name = "Triangle";
+
     @Override
-    public void printName() {
-        System.out.println("triangle");
+    public String getName() {
+        return name;
     }
 }

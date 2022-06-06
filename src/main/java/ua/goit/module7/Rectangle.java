@@ -1,8 +1,10 @@
 package ua.goit.module7;
 
 class Rectangle implements Shape {
+    String name = "Rectangle";
+
     @Override
-    public void printName() {
-        System.out.println("rectangle");
+    public String getName() {
+        return name;
     }
 }

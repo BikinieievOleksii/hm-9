@@ -1,8 +1,10 @@
 package ua.goit.module7;
 
 class Circle implements Shape {
+    String name = "Circle";
+
     @Override
-    public void printName() {
-        System.out.println("circle");
+    public String getName() {
+        return name;
     }
 }

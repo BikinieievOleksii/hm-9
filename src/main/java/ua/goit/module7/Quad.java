@@ -1,8 +1,10 @@
 package ua.goit.module7;
 
 class Quad implements Shape {
+    String name = "Quad";
+
     @Override
-    public void printName() {
-        System.out.println("quad");
+    public String getName() {
+        return name;
     }
 }
