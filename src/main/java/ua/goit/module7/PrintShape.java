@@ -2,7 +2,7 @@ package ua.goit.module7;
 
 public class PrintShape {
 
-    public String get(Shape shape) {
-        return shape.getName();
+    public void printName (Shape name) {
+        System.out.println(name.getName());
     }
 }
